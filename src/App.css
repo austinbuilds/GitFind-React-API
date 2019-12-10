@@ -1,0 +1,167 @@
+:root {
+  --accent: #3a5fe2;
+  --accent-light: #eceffc;
+  --secondary: #899ab5;
+  --light: #fefefe;
+  --dark: #171c2c;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  line-height: 1.6;
+  font-family: 'Libre Franklin', sans-serif;
+  background: var(--light);
+  color: var(--dark);
+}
+
+.container {
+  padding: 0px 70px;
+}
+
+h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+a,
+a:hover {
+  color: inherit;
+}
+
+/* Nav */
+nav {
+  margin-top: 16px;
+  color: var(--accent);
+}
+
+.navbar-brand {
+  font-size: 1.4rem;
+  letter-spacing: -0.025px;
+  font-weight: 800;
+}
+
+/* Header */
+.hero {
+  width: 100%;
+  padding-top: 100px;
+  margin-bottom: 120px;
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+.hero p {
+  font-size: 1.3rem;
+  color: var(--secondary);
+}
+
+.hero-text {
+  padding-top: 40px;
+  padding-right: 30px;
+}
+
+.hero-svg {
+  padding-left: 30px;
+}
+
+.accent {
+  color: var(--accent);
+}
+
+/* Content */
+.content {
+  background: var(--light);
+  text-align: center;
+  color: var(--dark);
+}
+
+.btn-accent {
+  background: var(--accent-light);
+  color: var(--accent);
+  width: 140px;
+}
+
+.active {
+  background: var(--accent);
+  color: var(--light);
+}
+
+/* Rate */
+.rate {
+  color: var(--secondary);
+}
+
+/* Repos */
+.repos {
+  justify-content: center;
+  text-align: left;
+}
+
+.card {
+  min-width: 340px;
+  max-width: 340px;
+}
+
+/* Search */
+.search {
+  text-align: center;
+}
+
+.btn-search {
+  background: var(--accent);
+  color: var(--light);
+}
+
+/* Footer */
+footer {
+  color: var(--accent);
+}
+
+.footer-links {
+  margin: auto;
+}
+
+.footer-links svg {
+  width: 30px;
+}
+
+.icon {
+  fill: var(--accent);
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1199px) {
+  .container {
+    padding: 0px 50px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    padding: 0px 50px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .container {
+    padding: 0px 20px;
+  }
+
+  .hero {
+    margin-bottom: 0px;
+  }
+}

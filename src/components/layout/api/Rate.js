@@ -9,7 +9,6 @@ function Rate() {
       const res = await fetch(URL);
       const json = await res.json();
       setRates(json);
-      console.log(rates);
     };
     getRate();
   }, []);

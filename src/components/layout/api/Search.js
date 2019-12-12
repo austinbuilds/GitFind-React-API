@@ -11,7 +11,7 @@ function Search() {
 
   if (didMount) { };
 
-  useEffect((didMount) => {
+  useEffect(() => {
     const getAPI = async () => {
       if (didMount) {
         const response = await fetch(

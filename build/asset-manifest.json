@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/GitHub-React-API-Build/static/css/main.3ddd0339.chunk.css",
+    "main.js": "/GitHub-React-API-Build/static/js/main.c34cb759.chunk.js",
+    "main.js.map": "/GitHub-React-API-Build/static/js/main.c34cb759.chunk.js.map",
+    "runtime-main.js": "/GitHub-React-API-Build/static/js/runtime-main.a1fc4c59.js",
+    "runtime-main.js.map": "/GitHub-React-API-Build/static/js/runtime-main.a1fc4c59.js.map",
+    "static/js/2.325b1c81.chunk.js": "/GitHub-React-API-Build/static/js/2.325b1c81.chunk.js",
+    "static/js/2.325b1c81.chunk.js.map": "/GitHub-React-API-Build/static/js/2.325b1c81.chunk.js.map",
+    "index.html": "/GitHub-React-API-Build/index.html",
+    "precache-manifest.cacc635a998a5f24ce157a0a59bfb408.js": "/GitHub-React-API-Build/precache-manifest.cacc635a998a5f24ce157a0a59bfb408.js",
+    "service-worker.js": "/GitHub-React-API-Build/service-worker.js",
+    "static/css/main.3ddd0339.chunk.css.map": "/GitHub-React-API-Build/static/css/main.3ddd0339.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a1fc4c59.js",
+    "static/js/2.325b1c81.chunk.js",
+    "static/css/main.3ddd0339.chunk.css",
+    "static/js/main.c34cb759.chunk.js"
+  ]
+}
